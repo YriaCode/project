@@ -1,0 +1,253 @@
+
+/* Barre de navigation*/
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	width: 99%;
+	bottom: 87%;
+	background-color: #96a687;
+	box-shadow: 10px 5px 5px #6b7b5e;
+	background: linear-gradient(to bottom right, #96a687, #e6fad0);
+	
+}
+/*Lien de navigation qui mène à la page de tous les articles*/
+.texte-article
+{
+	color: #defdc1;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px #505b46;
+	text-decoration:none;
+	opacity: 1;
+}
+/*Effet lorsqu'on survol le lien de navigation "article"*/
+.texte-article:hover
+{
+	color: #74e70c;
+}
+/*Effet lorsqu'on clic sur le lien de navigation "article"*/
+.texte-article:active
+{
+	color: #defdc1;
+}
+/*Lien de navigation qui mène à la page des categories*/
+.texte-categories
+{
+	color: #defdc1;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px #505b46;
+	text-decoration:none;
+	opacity: 1;
+}
+/*Effet lorsqu'on survol le lien de navigation "categories"*/
+.texte-categories:hover
+{
+	color: #74e70c;
+}
+/*Effet lorsqu'on clic sur le lien de navigation "categories*/
+.texte-categories:active
+{
+	color: #defdc1;
+}
+/* Section header*/
+header
+{
+	display: flex;
+	padding-top: 8%;
+	padding-bottom: 1%;
+	background: linear-gradient(70deg, #e2f3d5, #ccdbc0)
+}
+.header-image
+{
+	border: solid 3px white;
+}
+/*Boutton qui mène à la liste entière des citations*/
+.citations-list
+{
+	padding-top: 15%;
+	padding-left: 25%;
+}
+.button-citations
+{
+	border-radius: 12px 0 12px 0;
+	font: bold 12px Verdana;
+	padding: 10px 15px 10px 15px;
+	box-shadow: 1px 1px 3px #999;
+	background: linear-gradient(white, #e9f9d7);
+	font-family: 'Handlee', cursive;
+	font-size: 17px;
+}
+/*Pour styliser le bouton*/
+.button-citations-citation
+{
+	text-decoration:none;
+	color: #556f37;
+}
+.button-citations-citation:hover
+{
+	color: #3c5025;
+}
+/* Block de citations*/
+.header-blockquote
+{
+	width: 50%;
+	color: #556f37;
+	text-shadow: 0px 1px 2px white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 27px;
+	margin-top: -1%;
+}
+.header-blockquote-blockquote
+{
+	width: 50%;
+	color: #556f37;
+	text-shadow: 0px 1px 2px white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 27px;
+	margin-top: -1%;
+}
+/* Toute la section "Categories"*/
+.categories
+{
+	display:flex;
+	justify-content: space-around;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #96a687;
+}
+/* Block image + lien de la catégorie "confiance en soi"*/
+.categories-confiance
+{
+	display: flex;
+	flex-direction: column;
+}
+/*Lien de la catégorie "confiance en soi"*/
+.categories-category-confiance
+{
+	padding-top: 12%;
+	text-decoration:none;
+	color: #defdc1;
+	font-size: 22px;
+	text-shadow: 2px 2px 2px #505b46;
+}
+.categories-category-confiance:hover
+{
+	color: #74e70c;
+}
+/* Block image + lien de la catégorie "atteindre ses objectifs"*/
+.categories-objectifs
+{
+	display: flex;
+	flex-direction: column;
+}
+/*Lien de la catégorie "atteindre ses objectifs"*/
+.categories-category-objectifs
+{
+	padding-top: 8%;
+	text-decoration:none;
+	color: #defdc1;
+	font-size: 22px;
+	text-shadow: 2px 2px 2px #505b46;
+}
+.categories-category-objectifs:hover
+{
+	color: #74e70c;
+}
+/* Block image + lien de la catégorie "Apprendre"*/
+.categories-apprendre
+{
+	display: flex;
+	flex-direction: column;
+}
+/*Lien de la catégorie "apprendre"*/
+.categories-category-apprendre
+{
+	padding-left: 6%;
+	padding-top: 12%;
+	text-decoration:none;
+	color: #defdc1;
+	font-size: 22px;
+	text-shadow: 2px 2px 2px #505b46;
+}
+.categories-category-apprendre:hover
+{
+	color: #74e70c;
+}
+/* Section des articles récents et populaires*/
+.categories-articles
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: #e2f3d5;
+}
+/* Toute la partie body*/
+body
+{
+	background-color:  #656b60;
+}
+/*Les sections de chaque page secondaire*/
+.section-type
+{
+	padding-top: 8%;
+	background-color: #e2f3d5;
+}
+hr
+{
+	width: 1000px;
+	color: white;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	height: 2px;
+}
+/* Bouton retour en haut*/
+.top
+{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 90px;
+}
+/*Début page "Citation"*/
+
+/*Image bannière de la page*/
+.image-citation
+{
+	display: flex;
+	justify-content: center;
+	margin-top: -2%;
+}
+/*Les puces devant les citations*/
+li {
+    list-style-type: circle;
+    line-height: 2;
+}
+/*Les sous-titres*/
+h3
+{
+	font-family: 'Poiret One', cursive;
+	font-size: 37px;
+	color: #96a687;
+	text-shadow: 0px 2px 3px white;
+}
+/* Tous les paragraphe de chaque page externe à la principale*/
+.paragraphe-type
+{
+	padding-left: 2%;
+}
+.paragraphe-type-citations
+{
+	font-family: 'Dancing Script', cursive;
+	font-size: 27px;
+	color: #3f4d32;
+	text-shadow: 0px 3px 4px #b1baaa;
+	padding-bottom: 3%;
+}
+/* Début page article*/
+.image-type
+{
+	display: flex;
+	justify-content: center;
+	margin-top: -2%;
+}
